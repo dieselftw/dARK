@@ -1,17 +1,24 @@
 {
   "name": "dark",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "b4a": "^1.6.7",
+    "bare-process": "^4.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
     "express": "^4.21.2",
     "hyperbee": "^2.20.7",
     "hypercore": "^10.38.1",
+    "hypercore-crypto": "^3.4.2",
+    "hyperdht": "^6.20.1",
     "hyperswarm": "^4.8.4"
   }
 }
